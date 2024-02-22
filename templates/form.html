@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ML Web App</title>
+</head>
+<body>
+    <h2>Enter Details</h2>
+    <form action="/predict" method="post">
+        <label for="interest">Interest:</label><br>
+        <input type="text" id="interest" name="interest"><br>
+        <label for="branch">Branch:</label><br>
+        <input type="text" id="branch" name="branch"><br>
+        <label for="members">Members:</label><br>
+        <input type="number" id="members" name="members" min="10" max="20"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
